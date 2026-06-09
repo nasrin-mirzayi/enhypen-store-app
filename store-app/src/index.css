@@ -1,0 +1,593 @@
+/* =========================
+THEME VARIABLES
+========================= */
+
+:root {
+--bg: rgba(255, 182, 193, 0.164);
+--card: #f8f8f8;
+--text: black;
+--accent: lightpink;
+--border: pink;
+--danger: #ff4d4d;
+}
+
+[data-theme="dark"] {
+--bg: #0a0a0a;
+--card: #181818;
+--text: #ffffff;
+--accent: #d4af37;
+--border: rgba(212, 175, 55, 0.4);
+--danger: #ff6b6b;
+}
+
+/* =========================
+BASE STYLES
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+background: var(--bg);
+color: var(--text);
+font-family: Arial, Helvetica, sans-serif;
+transition: 0.3s ease;
+}
+
+/* =========================
+NAVBAR
+========================= */
+
+.navbar {
+height: 70px;
+padding: 0 2rem;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+background: var(--card);
+border-bottom: 1px solid var(--border);
+}
+
+.logo {
+font-size: 1.3rem;
+font-weight: bold;
+color: var(--accent);
+text-decoration: none;
+}
+
+.nav-links {
+display: flex;
+gap: 1rem;
+align-items: center;
+}
+
+.nav-links a {
+text-decoration: none;
+color: var(--text);
+}
+
+/* =========================
+HERO
+========================= */
+
+.hero {
+position: relative;
+height: 600px;
+overflow: hidden;
+}
+
+.hero-image {
+width: 100%;
+height: auto;
+object-fit: cover;
+display: block;
+padding: 0 5vw;
+}
+
+.hero-overlay {
+position: absolute;
+inset: 0;
+margin-top: 70px;
+text-align: center;
+}
+
+.hero-overlay h1 {
+font-size: 3rem;
+margin-bottom: 1rem;
+color: white;
+}
+
+.hero-overlay p {
+font-size: 1.2rem;
+letter-spacing: 5px;
+color: white;
+}
+
+/* =========================
+SEARCH
+========================= */
+
+.search-wrapper {
+display: flex;
+justify-content: center;
+margin: 2rem;
+}
+
+.search-input {
+width: 500px;
+max-width: 90%;
+padding: 12px;
+
+border-radius: 12px;
+border: 1px solid var(--border);
+
+background: var(--card);
+color: var(--text);
+}
+
+/* =========================
+CATEGORY FILTER
+========================= */
+
+.category-filter {
+display: flex;
+justify-content: center;
+gap: 1rem;
+flex-wrap: wrap;
+margin-bottom: 2rem;
+}
+
+.category-filter button {
+padding: 10px 18px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+
+background: var(--card);
+color: var(--text);
+}
+
+.active-category {
+background: var(--accent);
+color: black;
+}
+
+/* =========================
+PRODUCT GRID
+========================= */
+
+.product-grid {
+display: grid;
+grid-template-columns: repeat(
+auto-fit,
+minmax(260px, 1fr)
+);
+gap: 20px;
+padding: 20px;
+}
+
+/* =========================
+PRODUCT CARD
+========================= */
+
+.product-card {
+background: var(--card);
+color: var(--text);
+
+border: 1px solid var(--border);
+border-radius: 18px;
+
+padding: 1rem;
+text-align: center;
+
+position: relative;
+
+transition: 0.3s;
+}
+
+.product-card:hover {
+transform: translateY(-4px);
+}
+
+.product-image {
+width: 100%;
+height: 300px;
+
+object-fit: cover;
+
+border-radius: 12px;
+
+margin-bottom: 1rem;
+}
+
+.product-card h3 {
+margin-bottom: 0.5rem;
+}
+
+.product-card p {
+margin-bottom: 0.4rem;
+}
+
+.favorite-btn {
+position: absolute;
+
+top: 15px;
+right: 15px;
+
+width: 40px;
+height: 40px;
+
+border: none;
+border-radius: 50%;
+
+background: var(--card);
+
+display: flex;
+align-items: center;
+justify-content: center;
+
+cursor: pointer;
+
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.badge {
+display: inline-block;
+
+margin: 0.5rem 0 1rem;
+
+background: var(--accent);
+color: black;
+
+padding: 5px 10px;
+
+border-radius: 20px;
+
+font-size: 0.8rem;
+font-weight: bold;
+}
+
+.card-buttons {
+display: flex;
+gap: 10px;
+margin-top: 1rem;
+}
+
+.details-btn,
+.cart-btn {
+flex: 1;
+
+padding: 10px;
+
+border-radius: 10px;
+
+text-decoration: none;
+font-weight: bold;
+
+cursor: pointer;
+
+transition: 0.2s;
+}
+
+.details-btn {
+background: transparent;
+border: 1px solid var(--border);
+color: var(--text);
+}
+
+.cart-btn {
+background: var(--accent);
+color: black;
+}
+
+.details-btn:hover,
+.cart-btn:hover {
+transform: translateY(-2px);
+}
+
+/* =========================
+DETAILS PAGE
+========================= */
+
+.details-page {
+padding: 2rem;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.details-card {
+width: 100%;
+max-width: 800px;
+
+background: var(--card);
+
+border: 1px solid var(--border);
+border-radius: 18px;
+
+padding: 2rem;
+}
+
+.details-desc {
+margin: 1rem 0;
+line-height: 1.6;
+}
+
+/* =========================
+CART PAGE
+========================= */
+
+.cart-page {
+padding: 20px;
+}
+
+.cart-item {
+display: flex;
+gap: 15px;
+
+margin-bottom: 15px;
+padding: 10px;
+
+border-radius: 12px;
+background: var(--card);
+}
+
+.qty-controls {
+display: flex;
+gap: 10px;
+align-items: center;
+}
+
+/* =========================
+MINI CART
+========================= */
+
+.cart-wrapper {
+position: relative;
+}
+
+.mini-cart {
+position: absolute;
+right: 0;
+top: 45px;
+
+width: 280px;
+
+background: var(--card);
+color: var(--text);
+
+border: 1px solid var(--border);
+border-radius: 10px;
+
+padding: 10px;
+z-index: 999;
+}
+
+.mini-item {
+margin-bottom: 10px;
+}
+
+.mini-controls {
+display: flex;
+gap: 8px;
+align-items: center;
+}
+.mini-controls button {
+  width: 28px;
+  height: 28px;
+
+  border-radius: 6px;
+
+  border: 1px solid var(--border);
+
+  background: var(--bg);
+  color: var(--text);
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: 0.2s;
+}
+
+.mini-controls button:hover {
+  background: var(--accent);
+  color: black;
+  transform: scale(1.1);
+}
+.mini-controls button:last-child {
+  background: var(--danger);
+  color: white;
+  border: none;
+}
+/* =========================
+FAVORITES PAGE
+========================= */
+
+.page {
+padding: 2rem;
+}
+
+.page h1 {
+text-align: center;
+margin-bottom: 2rem;
+}
+
+.favorites-grid {
+display: grid;
+grid-template-columns: repeat(
+auto-fit,
+minmax(240px, 1fr)
+);
+gap: 20px;
+}
+
+.favorite-card {
+background: var(--card);
+color: var(--text);
+
+border: 1px solid var(--border);
+border-radius: 18px;
+
+padding: 1rem;
+text-align: center;
+
+transition: 0.3s;
+}
+
+.favorite-card:hover {
+transform: translateY(-4px);
+}
+
+.favorite-image {
+width: 100%;
+height: 250px;
+
+object-fit: cover;
+
+border-radius: 12px;
+
+margin-bottom: 1rem;
+}
+
+.remove-favorite-btn {
+width: 100%;
+
+margin-top: 1rem;
+padding: 10px;
+
+border: none;
+border-radius: 10px;
+
+background: var(--accent);
+
+cursor: pointer;
+font-weight: bold;
+}
+
+.text {
+padding: 7px;
+font-family: "Courier New", Courier, monospace;
+}
+.cart-page-link {
+  display: block;
+
+  margin-top: 10px;
+  padding: 10px;
+
+  text-align: center;
+
+  background: var(--accent);
+  color: black;
+
+  border-radius: 10px;
+
+  font-weight: bold;
+
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.cart-page-link:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+.cart-page-link:active {
+  transform: scale(0.97);
+}
+/* =========================
+   CART BUTTONS
+========================= */
+
+.qty-btn {
+  width: 32px;
+  height: 32px;
+
+  border-radius: 8px;
+
+  border: 1px solid var(--border);
+
+  background: var(--card);
+  color: var(--text);
+
+  cursor: pointer;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  transition: 0.2s ease;
+}
+
+.qty-btn:hover {
+  background: var(--accent);
+  color: black;
+  transform: scale(1.05);
+}
+
+.qty-btn:active {
+  transform: scale(0.95);
+}
+
+/* REMOVE BUTTON */
+.remove-btn {
+  margin-top: 10px;
+
+  padding: 8px 12px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: var(--danger);
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: bold;
+
+  transition: 0.2s ease;
+}
+
+.remove-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+
+/* CLEAR CART */
+.clear-btn {
+  margin-top: 15px;
+
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: var(--accent);
+  color: black;
+
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.2s ease;
+}
+
+.clear-btn:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
+.notfound{
+  text-align: center;
+  margin: 1rem;
+}

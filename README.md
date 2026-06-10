@@ -24,7 +24,7 @@ React Router for page navigation <br>
 - Search products by name
 - Filter products by category
 - View detailed information about each item
-- Shopping Cart
+🌼 Shopping Cart
 - Add items to cart
 - Increase quantity
 - Decrease quantity
@@ -33,16 +33,16 @@ React Router for page navigation <br>
 - View total items
 - View total price
 - Quick mini-cart dropdown in navigation bar
-- Favorites
+🌼 Favorites
 - Add products to favorites
 - Remove products from favorites
 - Dedicated Favorites page
-- Settings
+🌼 Settings
 - Dark Mode / Light Mode
 - Category filtering
 - Shared settings using Context API and useReducer
-- API Integration
+🌼API Integration
 - Product data fetched using React Query
--Loading state handling
-Error state handling
-Cached API responses
+- Loading state handling
+- Error state handling
+- Cached API responses

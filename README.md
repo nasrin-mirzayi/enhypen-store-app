@@ -111,8 +111,32 @@ Custom CSS styling with: <br>
 
 <img width="1862" height="1623" alt="2" src="https://github.com/user-attachments/assets/f6e90826-3495-4ee7-91bc-0d736f01379f" />
 
+cart page 🛒
+<img width="1920" height="1088" alt="screencapture-localhost-5173-cart-2026-06-10-07_47_37" src="https://github.com/user-attachments/assets/0a24b5a3-07aa-482a-8022-038895d1c42a" />
+
+
+
+light mode + collection filter 🌞
 <img width="1920" height="922" alt="screencapture-localhost-5173-favorites-2026-06-10-07_49_02" src="https://github.com/user-attachments/assets/5034a34c-34f1-4325-8193-f0900443964a" />
 
+favorite page ♥️
+
+<img width="1920" height="922" alt="screencapture-localhost-5173-favorites-2026-06-10-07_49_02" src="https://github.com/user-attachments/assets/3d42ad7e-462b-45b9-84a6-60d650e85df6" />
+
+not found 🔍
 <img width="1920" height="1276" alt="screencapture-localhost-5173-2026-06-10-07_59_12" src="https://github.com/user-attachments/assets/0385ed10-37b4-47b4-b27c-70be7e8e2b96" />
 
-<img width="1920" height="1088" alt="screencapture-localhost-5173-cart-2026-06-10-07_47_37" src="https://github.com/user-attachments/assets/0a24b5a3-07aa-482a-8022-038895d1c42a" />
+---
+📱:
+cart 📈, 📉, 🗑️
+<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-07_59_43" src="https://github.com/user-attachments/assets/cbc38eae-6d94-4213-b880-dd1fb51c2b35" />
+
+<img width="383" height="787" alt="screencapture-localhost-5173-cart-2026-06-10-08_00_03" src="https://github.com/user-attachments/assets/6ce3e0b7-4b03-4ea3-8f01-199152b3f727" />
+
+<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-08_01_55" src="https://github.com/user-attachments/assets/9f9e846b-1c52-49af-98d7-c0c67f2f1e0f" />
+
+<img width="370" height="870" alt="screencapture-localhost-5173-2026-06-10-08_00_57" src="https://github.com/user-attachments/assets/93a44f11-61f7-4a72-8a06-d66ecc524d5e" />
+
+
+---
+

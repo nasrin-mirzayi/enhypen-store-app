@@ -41,7 +41,7 @@ export default function CartPage() {
                 className="cart-item"
               >
 
-                <img
+                <img className="cartimagee"
                   src={item.image || item.thumbnail}
                   alt={item.title}
                 />

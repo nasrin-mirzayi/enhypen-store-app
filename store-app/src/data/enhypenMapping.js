@@ -131,14 +131,7 @@ export const enhypenItems = [
     image:enhypenn,
   },
 {
-   id: 13,
-    title: "Heeseung",
-    category: "Photocards",
-    badge: "Best Seller",
-    price: 110,
-    image: evan,
-  },
-   {
+
     id:14,
     title: "Jay",
     category: "Photocards",

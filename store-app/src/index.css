@@ -591,3 +591,9 @@ font-family: "Courier New", Courier, monospace;
   text-align: center;
   margin: 1rem;
 }
+
+.cartimagee{
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}

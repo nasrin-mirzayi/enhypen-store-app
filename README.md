@@ -3,7 +3,7 @@
 🌸 About the Project
 
 ENHYPEN Universe Store is a react responsive application inspired by a K-pop group. Users can browse ENHYPEN albums, photocards, and collectible items, view product details, manage favorites, and add items to a shopping cart. used custom CSS to focus on understanding React state managment ( context API, redux Toolkit, React Query ) and create my own style. 
-<br>
+<br> <br>
 🌸 theme: <br>
 black + golden ---> dark moode <br>
 white + pink ----> light mode <br>

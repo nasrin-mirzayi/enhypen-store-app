@@ -23,7 +23,7 @@ React Router for page navigation <br>
 - Browse ENHYPEN albums, photocards, and collections
 - Search products by name
 - Filter products by category
-- View detailed information about each item
+- View detailed information about each item <br>
 🌼 Shopping Cart
 - Add items to cart
 - Increase quantity
@@ -32,17 +32,77 @@ React Router for page navigation <br>
 - Clear cart
 - View total items
 - View total price
-- Quick mini-cart dropdown in navigation bar
+- Quick mini-cart dropdown in navigation bar <br>
 🌼 Favorites
 - Add products to favorites
 - Remove products from favorites
-- Dedicated Favorites page
+- Dedicated Favorites page <br>
 🌼 Settings
 - Dark Mode / Light Mode
 - Category filtering
-- Shared settings using Context API and useReducer
+- Shared settings using Context API and useReducer <br>
 🌼API Integration
 - Product data fetched using React Query
 - Loading state handling
 - Error state handling
-- Cached API responses
+- Cached API responses <br>
+ ---
+ 
+🌼 React Router
+
+Used for navigation between pages: <br>
+
+- Home
+- Product Details
+- Favorites
+- Cart <br>
+
+ 🌼 Context API + useReducer <br>
+
+Used to manage shared application settings:
+
+- Theme switching
+- Product category selection <br>
+
+ 🌼 Redux Toolkit <br>
+
+Used for global application state: <br>
+
+- Shopping cart
+- Favorites <br>
+
+Implemented with: <br>
+
+- createSlice
+- configureStore
+- useSelector
+- useDispatch <br>
+
+🌼 React Query <br>
+
+Used for:
+
+- Fetching product data
+- Managing loading states
+- Managing error states
+- Caching se65rver data <br>
+
+ 🌼 CSS <br>
+
+Custom CSS styling with: <br>
+
+- Responsive layouts
+- Dark mode support
+- Hover effects
+- Product card styling
+- Cart dropdown styling
+
+  ---
+
+  
+  🌸How to run: <br>
+  - open project on vs code
+  - npm install
+  - npm run dev
+
+  ---

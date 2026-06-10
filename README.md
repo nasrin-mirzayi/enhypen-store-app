@@ -133,14 +133,19 @@ not found 🔍
 📱: 
 
 cart 📈, 📉, 🗑️
-<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-07_59_43" src="https://github.com/user-attachments/assets/cbc38eae-6d94-4213-b880-dd1fb51c2b35" /> <br>
-🛒 <br>
+<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-07_59_43" src="https://github.com/user-attachments/assets/cbc38eae-6d94-4213-b880-dd1fb51c2b35" /> 
 
-<img width="383" height="787" alt="screencapture-localhost-5173-cart-2026-06-10-08_00_03" src="https://github.com/user-attachments/assets/6ce3e0b7-4b03-4ea3-8f01-199152b3f727" /> <br>
-♥️ <br>
+---
+🛒 
 
-<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-08_01_55" src="https://github.com/user-attachments/assets/9f9e846b-1c52-49af-98d7-c0c67f2f1e0f" /> <br>
+<img width="383" height="787" alt="screencapture-localhost-5173-cart-2026-06-10-08_00_03" src="https://github.com/user-attachments/assets/6ce3e0b7-4b03-4ea3-8f01-199152b3f727" /> 
 
+---
+♥️ 
+
+<img width="383" height="787" alt="screencapture-localhost-5173-favorites-2026-06-10-08_01_55" src="https://github.com/user-attachments/assets/9f9e846b-1c52-49af-98d7-c0c67f2f1e0f" /> 
+
+---
 🟨
 <img width="370" height="870" alt="screencapture-localhost-5173-2026-06-10-08_00_57" src="https://github.com/user-attachments/assets/93a44f11-61f7-4a72-8a06-d66ecc524d5e" />
 

@@ -106,3 +106,13 @@ Custom CSS styling with: <br>
   - npm run dev
 
   ---
+💻main page: <br>
+<img width="1907" height="1047" alt="1" src="https://github.com/user-attachments/assets/3d14ce94-08a1-4887-bd88-baad336bc755" />
+
+<img width="1862" height="1623" alt="2" src="https://github.com/user-attachments/assets/f6e90826-3495-4ee7-91bc-0d736f01379f" />
+
+<img width="1920" height="922" alt="screencapture-localhost-5173-favorites-2026-06-10-07_49_02" src="https://github.com/user-attachments/assets/5034a34c-34f1-4325-8193-f0900443964a" />
+
+<img width="1920" height="1276" alt="screencapture-localhost-5173-2026-06-10-07_59_12" src="https://github.com/user-attachments/assets/0385ed10-37b4-47b4-b27c-70be7e8e2b96" />
+
+<img width="1920" height="1088" alt="screencapture-localhost-5173-cart-2026-06-10-07_47_37" src="https://github.com/user-attachments/assets/0a24b5a3-07aa-482a-8022-038895d1c42a" />

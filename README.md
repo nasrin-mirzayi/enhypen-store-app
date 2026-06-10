@@ -117,7 +117,8 @@ cart page 🛒
 
 
 light mode + collection filter 🌞
-<img width="1920" height="922" alt="screencapture-localhost-5173-favorites-2026-06-10-07_49_02" src="https://github.com/user-attachments/assets/5034a34c-34f1-4325-8193-f0900443964a" />
+<img width="1920" height="1997" alt="screencapture-localhost-5173-2026-06-10-07_58_32" src="https://github.com/user-attachments/assets/4946f9a1-c14e-4d01-9c50-de703703c4da" />
+
 
 favorite page ♥️
 
